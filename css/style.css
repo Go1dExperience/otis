@@ -1,1 +1,58 @@
+/* Info 
+    font: Roboto Condensed,
+    Lava(button, navbar): #cc1019,
+    Dark Vanilla: #bfbea4
+*/
 /* General CSS */
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* Button */
+.btn-custom{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    color: black;
+    border-color: white;
+    font-weight: 400;
+}
+.btn-custom:hover{
+    background-color: #c61019;
+    color: white;
+    border-color: #bfbea4;
+}
+
+/* Banter */
+#banter .col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banter-bg{
+    background: url("../img/main.jpg") -50px -50px;
+    height: 400px;
+}
+.content-box-outer{
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #bfbea4;
+}
+.content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 120px;
+}
+.content-box-inner h3{
+    font-weight: 700;
+}
+/* Bestsellers */
+.bestseller{
+    margin: 35px 0;
+}
+.bestseller h4{
+    font-weight: 700;
+}
