@@ -1,3 +1,9 @@
+// Wow Animation
+// New Wow Animation
+$(function() {
+    // animate on scroll
+    new WOW().init();
+});
 // Product (Owl Carousel)
 $(function(){
     $('#item-list').owlCarousel({

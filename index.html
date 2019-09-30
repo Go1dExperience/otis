@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/font-awesome/all.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css/animate/animate.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
@@ -20,40 +22,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">OTIS</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link active smooth-scroll" href="#banter">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smooth-scroll" href="#">SHOP</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smooth-scroll" href="#">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smooth-scroll" href="#about">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link smooth-scroll" href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-                <form class="form-inline ml-auto ">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button type="submit"><i class="fa fa-search fa-lg"></i></button>
-                </form>
-            </div>
-        </div>
-    </nav>
+    <!-- Navigation -->
+
     <!-- Banter Section -->
     <section id="banter">
         <div class="container-fuild">
@@ -63,7 +33,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="content-box-outer">
-                        <div class="content-box-inner">
+                        <div class="content-box-inner wow animated zoomIn" data-wow-duration="1s">
                             <h3>NEW LEATHER SELECTION FOR</h3>
                             <h3>YOUR BELOVED DEVICES</h3>
                             <p>Quasi doloribus eos architecto neque dignissimos inventore beatae, magnam sed?</p>
@@ -77,10 +47,10 @@
     <!-- Product Section -->
     <section id="product">
         <div id="bestseller">
-            <div class="bestseller-title">
+            <div class="bestseller-title wow animated fadeInDown" data-wow-duration="1s" data-wow-daley="0.5s">
                 <h4>Bestsellers</h4>
             </div>
-            <div class="container">
+            <div class="container wow animated fadeInUp" data-wow-duration="1s" data-wow-daley="0.5s">
                 <div class="row">
                     <div class="col-md-12">
                         <div id="item-list" class="owl-carousel owl-theme">
@@ -112,14 +82,14 @@
         <div id="categories">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 animated wow fadeInUp" data-wow-duration="1s" data-wow-daley="0.5s">
                         <div class="categories-outer">
                             <div class="categories-title">
                                 <h4 class="text-center">Categories</h4>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-10 animated wow fadeInDown" data-wow-duration="1s" data-wow-daley="0.5s">
                         <div id="item-list2" class="owl-carousel owl-theme">
                             <div class="item-icons">
                                 <img src="/img/products/phonecase.jpg" alt="phone-case" class="img-responsive">
@@ -152,7 +122,7 @@
         <div class="content-box">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow animated bounceInLeft" data-wow-duration="1s" data-wow-daley="0.5s">
                         <div class="content-box-outer">
                             <div class="content-box-inner">
                                 <h4>Lorem ipsum, dolor sit amet consectetur.</h4>
@@ -177,7 +147,7 @@
                 <div class="content-box-outer">
                     <div class="content-box-inner">
                         <div class="container">
-                            <div class="row">
+                            <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-daley="0.5s">
                                 <div class="col-md-4">
                                     <div id="contact">
                                         <h4>CONTACT</h4>
@@ -188,7 +158,14 @@
                                         <br>
                                         <p>Expedita molestiae voluptatum.</p>
                                         <p>Contact Info:</p>
-                                        
+                                        <ul class="social-list">
+                                            <li><a href="http://www.facebook.com"><i
+                                                        class="fab fa-facebook fa-2x"></i></a></li>
+                                            <li><a href="http://www.youtube.com"><i
+                                                        class="fab fa-youtube fa-2x"></i></a></li>
+                                            <li><a href="http://www.linkedin.com"><i
+                                                        class="fab fa-linkedin fa-2x"></i></a></li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -217,6 +194,8 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap/bootstrap.js"></script>
+    <!-- WOW -->
+    <script src="js/wow/wow.js"></script>
     <!-- Owl Carousel -->
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
     <!-- Easing -->
