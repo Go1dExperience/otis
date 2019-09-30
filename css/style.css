@@ -1,7 +1,8 @@
 /* Info 
     font: Roboto Condensed,
     Lava(button, navbar): #cc1019,
-    Dark Vanilla: #bfbea4
+    Light pink: #fec0ff,
+    Granite: #cdcdcd
 */
 /* General CSS */
 body{
@@ -39,7 +40,7 @@ body{
     width: 100%;
     margin-right: 0px;
     padding-right: 0px;
-    background-color: #bfbea4;
+    background-color: #cdcdcd;
 }
 .content-box-inner{
     display: table-cell;
@@ -51,8 +52,25 @@ body{
 }
 /* Bestsellers */
 .bestseller{
-    margin: 35px 0;
+    margin: 0 20px;
 }
-.bestseller h4{
+.bestseller-title{
+    margin: 40px 150px;
+}
+.bestseller-title h4{
     font-weight: 700;
+}
+.item-icons p{
+    margin: 20px 0;
+    font-weight: 400;
+}
+/* Categories */
+.categories-outer{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.categories-title{
+    vertical-align: middle;
+    display: table-cell;
 }
