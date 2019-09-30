@@ -6,8 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Fonts -->
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/all.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
     <!-- Owl Carousel -->
@@ -17,28 +19,40 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="#">OTIS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">HOME</a>
-                <a class="nav-item nav-link" href="#">SHOP</a>
-                <a class="nav-item nav-link" href="#bestseller">GALLERY</a>
-                <a class="nav-item nav-link" href="#about">ABOUT</a>
-                <a class="nav-item nav-link" href="#contact">CONTACT</a>
-            </div>
-            <form class="form-inline ml-auto">
+            <a class="navbar-brand" href="#">OTIS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active smooth-scroll" href="#banter">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline ml-auto ">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-custom" type="submit">Search</button>
-                  </form>
+                    <button type="submit"><i class="fa fa-search fa-lg"></i></button>
+                </form>
+            </div>
         </div>
-    </div>
     </nav>
     <!-- Banter Section -->
     <section id="banter">
@@ -162,38 +176,41 @@
             <div class="endpage-bg">
                 <div class="content-box-outer">
                     <div class="content-box-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div id="contact">
-                                <h4>CONTACT</h4>
-                                <div class="content-underline"></div>
-                                <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit repudiandae!
-                                </p>
-                                <br>
-                                <p>Expedita molestiae voluptatum.</p>
-                                <p>Contact Info</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="about">
-                                <h4>ABOUT</h4>
-                                <div class="content-underline"></div>
-                                <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit repudiandae!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div id="post">
-                                <h4>LATEST POSTS</h4>
-                                <div class="content-underline"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div id="contact">
+                                        <h4>CONTACT</h4>
+                                        <div class="content-underline"></div>
+                                        <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit
+                                            repudiandae!
+                                        </p>
+                                        <br>
+                                        <p>Expedita molestiae voluptatum.</p>
+                                        <p>Contact Info:</p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div id="about">
+                                        <h4>ABOUT</h4>
+                                        <div class="content-underline"></div>
+                                        <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit
+                                            repudiandae!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div id="post">
+                                        <h4>LATEST POSTS</h4>
+                                        <div class="content-underline"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
     </footer>
     <!-- Jquery JS -->
@@ -202,6 +219,8 @@
     <script src="js/bootstrap/bootstrap.js"></script>
     <!-- Owl Carousel -->
     <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
 </body>

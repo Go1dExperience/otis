@@ -43,6 +43,9 @@ body{
 }
 
 /* Banter */
+#banter{
+    margin-top: 40px;
+}
 #banter .col-md-6{
     padding-left: 0px;
     padding-right: 0px;
@@ -139,4 +142,26 @@ body{
     font-size: 30px;
     font-weight: 700;
     color: #c61019
+}
+.navbar-collapse .form-inline .form-control{
+    padding: 4px 0;
+    margin-right: 0 !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    height: 30px;
+}
+.navbar{
+    padding: 0 16px 0 16px;
+}
+.nav > .nav-item > .nav-link:hover{
+    color: #c61019;
+    box-shadow: 0 -2px 0 0 #c61019;
+}
+.navbar .nav-item .active{
+    box-shadow: 0 -2px 0 0 #c61019;
+    font-weight: 500;
+    color: #c61019 !important;
 }
