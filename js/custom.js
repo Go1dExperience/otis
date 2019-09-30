@@ -33,7 +33,7 @@ $(function(){
         var section = $(this).attr("href");
 
         $('html, body').animate({
-            scrollTop: $(section).offset().top
+            scrollTop: $(section).offset().top -95
         }, 1250, "easeInOutExpo");
     });
 });

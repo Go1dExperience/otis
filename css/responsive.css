@@ -1,6 +1,8 @@
-@media (max-width: 991px){
-    .nanvbar-nav li{
-        display: block !important;   
+@media (max-width:768px){
+    .banter-bg{
+        height: 350px;
     }
-
+    .intro-image{
+        height: 350px;
+    }
 }
