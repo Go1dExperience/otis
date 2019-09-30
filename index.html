@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Fonts -->
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap">
+    href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
     <!-- Owl Carousel -->
@@ -17,13 +17,29 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br><br>
+<body>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">OTIS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">HOME</a>
+                <a class="nav-item nav-link" href="#">SHOP</a>
+                <a class="nav-item nav-link" href="#bestseller">GALLERY</a>
+                <a class="nav-item nav-link" href="#about">ABOUT</a>
+                <a class="nav-item nav-link" href="#contact">CONTACT</a>
+            </div>
+            <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-custom" type="submit">Search</button>
+                  </form>
+        </div>
+    </div>
+    </nav>
     <!-- Banter Section -->
     <section id="banter">
         <div class="container-fuild">
@@ -83,11 +99,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                    <div class="categories-outer">
-                        <div class="categories-title">
-                            <h4 class="text-center">Categories</h4>
+                        <div class="categories-outer">
+                            <div class="categories-title">
+                                <h4 class="text-center">Categories</h4>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <div class="col-md-10">
                         <div id="item-list2" class="owl-carousel owl-theme">
@@ -117,7 +133,69 @@
             </div>
         </div>
     </section>
-    <br><br><br><br><br><br><br>
+    <!-- Introduction -->
+    <section id="intro">
+        <div class="content-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content-box-outer">
+                            <div class="content-box-inner">
+                                <h4>Lorem ipsum, dolor sit amet consectetur.</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque sunt rerum blanditiis
+                                    dolorum consequatur, reprehenderit cupiditate molestias doloribus aliquid minima hic
+                                    provident eaque corporis fuga maxime nulla nostrum.</p>
+                                <a href="#">Learn More ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="intro-image img-responsive"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div id="endpage">
+            <div class="endpage-bg">
+                <div class="content-box-outer">
+                    <div class="content-box-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="contact">
+                                <h4>CONTACT</h4>
+                                <div class="content-underline"></div>
+                                <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit repudiandae!
+                                </p>
+                                <br>
+                                <p>Expedita molestiae voluptatum.</p>
+                                <p>Contact Info</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="about">
+                                <h4>ABOUT</h4>
+                                <div class="content-underline"></div>
+                                <p>Similique aperiam quas earum nostrum id ullam, vitae omnis reprehenderit repudiandae!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="post">
+                                <h4>LATEST POSTS</h4>
+                                <div class="content-underline"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
     <!-- Jquery JS -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap JS -->
